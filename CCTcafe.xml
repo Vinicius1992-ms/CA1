@@ -1,78 +1,87 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-stylesheet type="text/xsl" href="PaddysCafe.xsl"?>
+<?xml-stylesheet type="text/xsl" href="CCTcafe.xsl"?>
 <cafemenu>
-    <section name="Drink">
+    <section name="HOT BEVERAGES">
         <entree>
-            <item>Pepsi</item>
+            <item>Expresso</item>
             <price>2.00</price>
         </entree>
         <entree>
-            <item>Vodka</item>
-            <price>55.00</price>
+            <item>Americano</item>
+            <price>2.30</price>
+        </entree>
+        <entree>
+            <item>Flat White</item>
+            <price>3.00</price>
+        </entree>
+        <entree>
+            <item>Cappuccino</item>
+            <price>3.00</price>
+        </entree>
+        <entree>
+            <item>Mocha</item>
+            <price>3.75</price>
+        </entree>
+        <entree>
+            <item>Hot Chocolate</item>
+            <price>3.00</price>
         </entree>
     </section>
-    <section name="Side Dishes">
-        <entree vegetarian="true">
-            <item>Potato Salad</item>
-            <price>4.95</price>
+    <section name="COLD BEVERAGES">
+        <entree>
+            <item>Still Water</item>
+            <price>1.99</price>
         </entree>
         <entree>
-            <item>Paddy's French Fries</item>
-            <price>7.50</price>
+            <item>Sparkling Water</item>
+            <price>2.50</price>
         </entree>
         <entree>
-            <item>Huevos Rancheros</item>
-            <price>8.50</price>
+            <item>Orange Juice</item>
+            <price>2.50</price>
+        </entree>
+        <entree>
+            <item>Coke</item>
+            <price>1.50</price>
+        </entree>
+        <entree>
+            <item>Fanta</item>
+            <price>1.50</price>
+        </entree>
+        <entree>
+            <item>Sprite</item>
+            <price>1.50</price>
+        </entree>
+        <entree>
+            <item>Guarana Antartica</item>
+            <price>2.00</price>
         </entree>
     </section>
-    <section name="Breakfast">
-        <entree>
-            <item>Two Eggs, any style</item>
-            <price>4.99</price>
-        </entree>
-        <entree>
-            <item>Paddy's Famous Peppers and Eggs</item>
-            <price>8.29</price>
-        </entree>
-        <entree vegetarian="true">
-            <item>Bowl of fruit</item>
-            <price>6.99</price>
-        </entree>
-        <entree vegetarian="true">
-            <item>French toast</item>
-            <price>5.25</price>
-        </entree>
-        <entree>
-            <item>Croissant</item>
-            <price>3.99</price>
-        </entree>
-    </section>
-    <section name="Lunch">
+    <section name="SANDWICHES">
         <entree>
             <item>Grilled Chicken Sandwich</item>
-            <price>7.99</price>
+            <price>5.95</price>
         </entree>
         <entree>
             <item>Tuna Melt</item>
             <price>6.99</price>
         </entree>
+        <entree>
+            <item>Ham and Cheese Toast</item>
+            <price>4.99</price>
+        </entree>
         <entree vegetarian="true">
             <item>Pasta Salad</item>
-            <price>7.39</price>
-        </entree>
-    </section>
-    <section name="Dinner">
-        <entree>
-            <item>Ribeye Steak</item>
-            <price>19.99</price>
-        </entree>
-        <entree>
-            <item>Chilean Sea Bass</item>
-            <price>12.99</price>
+            <price>5.95</price>
         </entree>
         <entree vegetarian="true">
-            <item>Linguini with Grilled Porcini Mushroom</item>
-            <price>9.79</price>
+            <item>Falafel Salad</item>
+            <price>5.95</price>
+        </entree>
+
+        <entree vegetarian="true">
+            <item>Cheese Toast</item>
+            <price>3.99</price>
         </entree>
     </section>
 </cafemenu>
