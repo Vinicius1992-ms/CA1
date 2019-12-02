@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>IWA Demo App</title>
+  <title>CCT Cafe</title>
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -45,6 +45,10 @@
     </div>
   </nav>
 
+  <div class= "img" > 
+    <img src="img/CCT_cafe_logo.gif" alt="">  
+  </div>
+
   <!-- Page Content -->
   <div class="container">
     <div class="row">
@@ -52,7 +56,24 @@
         <h1 class="mt-5">Welcome to CCT Cafe</h1>
         <p class="lead">Nothing better than a cup of coffee.</p>
       </div>
-      <div id="results" class="col-lg-12 text-center"></div>
+      <div class="col-lg-4 text-center order-2">
+            <form enctype="application/json" action="/post/json" method="post">
+                <div class="form-group">
+                    <select class="form-control" name="sec_n">
+                        <option value="0">HOT BEVERAGE</option>
+                        <option value="1">COLD BEVERAGE</option>
+                        <option value="2">SANDWICHES</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="item" placeholder="Item">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="price" placeholder="Price">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
     </div>
   </div>
 
